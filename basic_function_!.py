@@ -27,7 +27,7 @@ add_numbers(5, 3)      #  5 + 3 = 8
 add_numbers(10, 20)    #  10 + 20 = 30
 
 print('=====Function with Return Value==========')
-
+# Use 'return' to send value back
 # Function that returns a value
 def multiply(x, y):
     product = x * y
@@ -227,3 +227,9 @@ print(squared)  # [1, 4, 9, 16, 25]
 # Filter with lambda
 even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
 print(even_numbers)  # [2, 4]
+
+print('=========ORDER RULES==========')
+# PARAMETER ORDER RULES:
+
+def func(a, b, *args, c=10, d=20, **kwargs):
+    pass
