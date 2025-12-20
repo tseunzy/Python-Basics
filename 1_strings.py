@@ -44,10 +44,10 @@ name = "Timothy seun"
 
 print("Case Conversion:")
 print(f"Original: '{name}'")
-print(f"Upper: '{name.upper()}'")          # JOHN DOE TIMOTHY SEUN
-print(f"Lower: '{name.lower()}'")          # john doe timothy seun
-print(f"Title: '{name.title()}'")          # John Doe Timothy Seun
-print(f"Capitalize: '{name.capitalize()}'") # John doe   Timothy seun
+print(f"Upper: '{name.upper()}'")        # TIMOTHY SEUN
+print(f"Lower: '{name.lower()}'")         # timothy seun
+print(f"Title: '{name.title()}'")          # Timothy Seun
+print(f"Capitalize: '{name.capitalize()}'") # Timothy seun
 
 
 print('======Searching and Checking========')
